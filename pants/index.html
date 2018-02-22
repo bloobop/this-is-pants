@@ -1,0 +1,52 @@
+<html>
+	
+	<head>
+		<meta charset="utf-8">
+		<title>👖 👖 👖 👖 </title>
+	</head>
+
+	<style type="text/css">
+	body
+	{
+		font-family: "Comic Sans", cursive, sans-serif;
+	}
+	</style>
+
+	<body align="center">
+		<h1>pants me up brother</h1>
+		<img src="on.png" id="ponos">
+		<p>you're not an ordinary fella</p>
+
+		<audio autoplay>
+		<source src="turtles.mp3" type="audio/mpeg">
+		</audio>
+
+	<script type="text/javascript">
+	var page = document.querySelector('html')	
+	var penis = document.querySelector('#ponos');
+
+		penis.onclick = function () {
+		var mySrc = penis.getAttribute('src');
+    	  if(mySrc === 'on.png') {
+    		penis.setAttribute ('src','off.png');
+    	} else {
+    		penis.setAttribute ('src','on.png');
+    	}
+    	}
+
+    	page.onkeypress = function (e) {
+    		if(e.keyCode == 32){
+    	var mySrc = penis.getAttribute('src');
+    	  if(mySrc === 'on.png') {
+    		penis.setAttribute ('src','off.png');
+    	} else {
+    		penis.setAttribute ('src','on.png');
+    	}	
+    	}
+    	}
+
+	</script>
+
+	</body>
+
+</html>
